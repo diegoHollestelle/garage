@@ -11,7 +11,7 @@
     dit formulier wordt gebruikt om autogegevens te wijzigen
 </p>
 <form action="gar-update-auto2.php" method="post">
-    welk auto wilt u wijzigen?
+    welke auto wilt u wijzigen?
     <input type="text" name="autokentekenvak"> <br />
     <input type="submit">
 </form>
