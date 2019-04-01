@@ -11,7 +11,7 @@
     Dit formulier zoekt een auto op uit de tabel auto van database garage
 </p>
 <form action="gar-search-auto2.php" method="post">
-    Welk auto zoekt u?
+    Welke auto zoekt u?
     <input type="text" name="autokentekenvak">   <br />
     <input type="submit">
 </form>
