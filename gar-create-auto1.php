@@ -11,11 +11,11 @@
     Dit formulier wordt gebruikt om klantgegevens in te voeren
 </p>
 <form action="gar-create-auto2.php" method="post">
-    autokenteken:      <input type="text" name="autokentekenvak">     <br />
-    automerk:     <input type="text" name="automerkvak">    <br />
-    autotype:  <input type="text" name="autotypevak"> <br />
+    autokenteken:   <input type="text" name="autokentekenvak"> <br />
+    automerk:       <input type="text" name="automerkvak">     <br />
+    autotype:       <input type="text" name="autotypevak">      <br />
     autokmstand:    <input type="text" name="autokmstandvak">   <br />
-    klantid:        <input type="text" name="klantidvak"> <br />
+    klantid:        <input type="text" name="klantidvak">       <br />
     <input type="submit">
 </form>
 </body>
