@@ -5,15 +5,19 @@
     <title>gar-update-auto1.php</title>
     <link rel="stylesheet" href="garstyle.css">
 </head>
+
 <body>
+<header>
 <h1>garage update auto1</h1>
 <p>
     dit formulier wordt gebruikt om autogegevens te wijzigen
 </p>
+</header>
 <form action="gar-update-auto2.php" method="post">
-    welke auto wilt u wijzigen?
+    welk auto wilt u wijzigen?
     <input type="text" name="autokentekenvak"> <br />
     <input type="submit">
 </form>
+
 </body>
 </html>

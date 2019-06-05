@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="garstyle.css">
 </head>
 <body>
-<h1>Garage delete auto 2</h1>
 
+<header>
+<h1>Garage delete auto 2</h1>
+</header>
 <?php
 $autokenteken = $_POST ["autokentekenvak"];
 

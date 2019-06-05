@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="garstyle.css">
 </head>
 <body>
-<h1>garage zoek op klantid 2 </h1>
-<p>
 
-</p>
+<header>
+<h1>garage zoek op klantid 2 </h1>
+</header>
 <?php
 $autokenteken = $_POST["autokentekenvak"];
 

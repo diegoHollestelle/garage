@@ -5,9 +5,11 @@
     <title>gar-delete-auto3.php</title>
     <link rel="stylesheet" href="garstyle.css">
 </head>
-<body>
-<h1>Garage delete auto 3</h1>
 
+<body>
+<header>
+<h1>Garage delete auto 3</h1>
+</header>
 <?php
 $autokenteken = $_POST ["autokentekenvak"];
 
@@ -30,5 +32,6 @@ else
 }
 echo "<a href='gar-menu.php'>terug naar het menu. </a>";
 ?>
+
 </body>
 </html>

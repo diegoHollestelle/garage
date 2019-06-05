@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="garstyle.css">
 </head>
 <body>
+
+<header>
 <h1>garage zoek op autokenteken </h1>
 <p>
     Dit formulier zoekt een auto op uit de tabel auto van database garage
 </p>
+</header>
 <form action="gar-search-auto2.php" method="post">
-    Welke auto zoekt u?
+    Welk auto zoekt u?
     <input type="text" name="autokentekenvak">   <br />
     <input type="submit">
 </form>
+
 </body>
 </html>

@@ -5,13 +5,16 @@
     <title>gar-read-auto.php</title>
     <link rel="stylesheet" href="garstyle.css">
 </head>
+
 <body>
+<header>
 <h1>
-    garage read auto's
+    Garage read auto's
 </h1>
 <p>
-    dit zijn alle gegevens uit de tabel auto's van de database garage.
+    Dit zijn alle gegevens uit de tabel auto's van de database garage.
 </p>
+</header>
 <?php
 require_once "gar-connect.php";
 
@@ -24,7 +27,8 @@ $auto = $conn->prepare("
          from  auto        
 ");
 $auto->execute();
-echo "<table>";
+
+echo "<table class='readauto'>";
 foreach ($auto as $auto)
 {
     echo "<tr>";
@@ -36,10 +40,9 @@ foreach ($auto as $auto)
     echo "</tr>";
 }
 echo "</table>";
-echo "<a href= 'gar-menu.php'> terug naar het menu </a>";
+echo "<a class='readlink' href= 'gar-menu.php'> terug naar het menu </a>";
 
 ?>
-
 
 </body>
 </html>

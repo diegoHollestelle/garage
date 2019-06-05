@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="garstyle.css">
 </head>
 <body>
+
 <?php
 
 $autokenteken = $_POST["autokentekenvak"];
@@ -37,5 +38,6 @@ echo "de klant is gewijzigd. <br />";
 echo "<a href='gar-menu.php'> terug naar het menu </a>";
 
 ?>
+
 </body>
 </html>

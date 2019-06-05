@@ -5,12 +5,15 @@
     <title>gar-create-auto2.php</title>
     <link rel="stylesheet" href="garstyle.css">
 </head>
+
 <body>
-<h1>garage create auto 2</h1>
+<header>
+<h1>Garage create auto 2</h1>
 <p>
-    een auto toevoegen aan de tabel
+    Een auto toevoegen aan de tabel
     auto in de database garage
 </p>
+</header>
 
 <?php
 
@@ -36,8 +39,9 @@ $sql-> execute([
     "autokmstand" => $autokmstand
 ]);
 
-echo "de auto is toegevoegd<br/>";
-echo "<a href= 'gar-menu.php'> terug naar het menu </a>";
+echo "De auto is toegevoegd<br/>";
+echo "<a href= 'gar-menu.php'> Terug naar het menu </a>";
 ?>
+
 </body>
 </html>

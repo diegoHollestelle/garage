@@ -5,12 +5,15 @@
     <title>gar-update-auto2.php</title>
     <link rel="stylesheet" href="garstyle.css">
 </head>
+
 <body>
+<header>
 <h1>garage update auto2</h1>
 <p>
     dit formulier wordt gebruikt om autogegevens te wijzigen
     in de tabel auto van de database garage.
 </p>
+</header>
 <?php
 $autokenteken = $_POST ["autokentekenvak"];
 
@@ -60,5 +63,6 @@ echo  "<input type ='submit'>";
 echo "</form>";
 
 ?>
+
 </body>
 </html>
