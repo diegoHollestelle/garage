@@ -10,7 +10,7 @@
 <header>
 <h1>Garage create auto 1</h1>
 <p>
-    Dit formulier wordt gebruikt om klantgegevens in te voeren
+    Dit formulier wordt gebruikt om auto in te voeren
 </p>
 </header>
 <form action="gar-create-auto2.php" method="post">
